@@ -15,6 +15,9 @@ server.generateCommonKey();
 alice.inform(server.generator, server.prime);
 bob.inform(server.generator, server.prime);
 
+alice.generateSecret();
+bob.generateSecret();
+
 alice.generatePublic();
 bob.generatePublic();
 
