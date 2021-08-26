@@ -26,3 +26,4 @@ bob.generateShared(alice.public);
 
 console.log(alice.shared === bob.shared); // If this outputs true then it worked
 ```
+https://jsfiddle.net/4zd7bgs9/6/
